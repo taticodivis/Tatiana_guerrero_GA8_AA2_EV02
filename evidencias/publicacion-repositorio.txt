@@ -1,0 +1,6 @@
+Repositorio: https://github.com/taticodivis/Tatiana_guerrero_GA8_AA2_EV02
+Version inicial verificada con git ls-remote: 75274fe21fbe0ebc76d87090e117305e861e2ba8
+Rama: main
+APK SHA256: 59EBEA6CE29B2387800E84097CC4DDEA150493FEDBAD2EBC715F83CE013C3AD5
+37 pruebas sin fallos; lint 0 errores, 9 advertencias.
+Prueba en telefono: pendiente.
