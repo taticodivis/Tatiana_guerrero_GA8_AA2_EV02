@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.codivis.movil.SesionYUiTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-19T03:52:39.539Z" hostname="LUCIA" time="10.16">
+  <properties/>
+  <testcase name="pantallaPrivadaSinSesionRedirigeAlLogin" classname="com.codivis.movil.SesionYUiTest" time="1.094"/>
+  <testcase name="loginCorrectoAbreClientes" classname="com.codivis.movil.SesionYUiTest" time="4.359"/>
+  <testcase name="registroInvalidoMuestraErrorYSigueEditable" classname="com.codivis.movil.SesionYUiTest" time="0.319"/>
+  <testcase name="cerrarSesionEliminaIdentidad" classname="com.codivis.movil.SesionYUiTest" time="0.469"/>
+  <testcase name="sesionRecuerdaIdentidadSinGuardarClave" classname="com.codivis.movil.SesionYUiTest" time="0.958"/>
+  <testcase name="listadoMuestraClientesYBotonSalirCierraSesion" classname="com.codivis.movil.SesionYUiTest" time="2.958"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

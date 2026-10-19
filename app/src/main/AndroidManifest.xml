@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- App local: no pide permisos de Internet, contactos, cámara ni almacenamiento compartido. -->
+    <application android:name=".CodivisApp" android:label="@string/app_name" android:icon="@drawable/ic_codivis"
+        android:theme="@style/Theme.Codivis" android:allowBackup="false" android:supportsRtl="true">
+        <activity android:name=".ui.ClientesActivity" android:exported="false" />
+        <activity android:name=".ui.RegistroActivity" android:exported="false" />
+        <activity android:name=".ui.LoginActivity" android:exported="true">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity>
+    </application>
+</manifest>

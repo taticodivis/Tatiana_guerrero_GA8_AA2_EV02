@@ -1,0 +1,68 @@
+{
+  "pruebas": [
+    {
+      "name": "com.codivis.movil.DatosYDominioTest",
+      "tests": 27,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        "autenticaUnaCuentaPersistida",
+        "listaSoloClientesDelUsuario",
+        "eliminaYNoSePuedeVolverAConsultar",
+        "loginRechazaClaveIncorrecta",
+        "otraCuentaNoPuedeConsultarEditarOEliminar",
+        "permiteTelefonoVacio",
+        "sinSesionNoPuedeOperar",
+        "baseImpideClienteConPropietarioInexistente",
+        "noPermiteUsuarioDuplicado",
+        "registroNormalizaYProtegeLaClave",
+        "actualizaYConservaId",
+        "validaCorreo",
+        "permiteMismoCorreoEnCuentasSeparadas",
+        "puedeEditarSinCambiarCorreo",
+        "validaLongitudDeUsuario",
+        "loginRechazaUsuarioInexistente",
+        "noActualizaConCorreoDeOtroCliente",
+        "validaTelefono",
+        "validaCaracteresDeUsuario",
+        "conservaClientesAlReabrirBase",
+        "validaNombreObligatorio",
+        "validaConfirmacion",
+        "creaClienteConDatosNormalizados",
+        "impideCorreoDuplicadoEnMismaCuenta",
+        "loginRechazaDatosVacios",
+        "validaClaveCorta",
+        "buscaPorNombreYCorreo"
+      ]
+    },
+    {
+      "name": "com.codivis.movil.PasswordHasherTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        "salAleatoriaProduceHashesDiferentes",
+        "aceptaClaveCorrectaYRechazaIncorrecta",
+        "noAceptaClaveNulaONombresDeAlgoritmoManipulados",
+        "rechazaHashDeterioradoSinExcepcion"
+      ]
+    },
+    {
+      "name": "com.codivis.movil.SesionYUiTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        "pantallaPrivadaSinSesionRedirigeAlLogin",
+        "loginCorrectoAbreClientes",
+        "registroInvalidoMuestraErrorYSigueEditable",
+        "cerrarSesionEliminaIdentidad",
+        "sesionRecuerdaIdentidadSinGuardarClave",
+        "listadoMuestraClientesYBotonSalirCierraSesion"
+      ]
+    }
+  ],
+  "compilacion": true,
+  "ejecucionTelefono": false,
+  "repositorioUrl": "https://github.com/taticodivis/Tatiana_guerrero_GA8_AA2_EV02"
+}

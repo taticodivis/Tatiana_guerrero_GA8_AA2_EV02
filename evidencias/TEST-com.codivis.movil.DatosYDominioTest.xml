@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.codivis.movil.DatosYDominioTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2026-10-19T03:52:06.267Z" hostname="LUCIA" time="29.972">
+  <properties/>
+  <testcase name="autenticaUnaCuentaPersistida" classname="com.codivis.movil.DatosYDominioTest" time="27.161"/>
+  <testcase name="listaSoloClientesDelUsuario" classname="com.codivis.movil.DatosYDominioTest" time="0.066"/>
+  <testcase name="eliminaYNoSePuedeVolverAConsultar" classname="com.codivis.movil.DatosYDominioTest" time="0.041"/>
+  <testcase name="loginRechazaClaveIncorrecta" classname="com.codivis.movil.DatosYDominioTest" time="1.289"/>
+  <testcase name="otraCuentaNoPuedeConsultarEditarOEliminar" classname="com.codivis.movil.DatosYDominioTest" time="0.035"/>
+  <testcase name="permiteTelefonoVacio" classname="com.codivis.movil.DatosYDominioTest" time="0.032"/>
+  <testcase name="sinSesionNoPuedeOperar" classname="com.codivis.movil.DatosYDominioTest" time="0.033"/>
+  <testcase name="baseImpideClienteConPropietarioInexistente" classname="com.codivis.movil.DatosYDominioTest" time="0.032"/>
+  <testcase name="noPermiteUsuarioDuplicado" classname="com.codivis.movil.DatosYDominioTest" time="0.028"/>
+  <testcase name="registroNormalizaYProtegeLaClave" classname="com.codivis.movil.DatosYDominioTest" time="0.64"/>
+  <testcase name="actualizaYConservaId" classname="com.codivis.movil.DatosYDominioTest" time="0.038"/>
+  <testcase name="validaCorreo" classname="com.codivis.movil.DatosYDominioTest" time="0.03"/>
+  <testcase name="permiteMismoCorreoEnCuentasSeparadas" classname="com.codivis.movil.DatosYDominioTest" time="0.032"/>
+  <testcase name="puedeEditarSinCambiarCorreo" classname="com.codivis.movil.DatosYDominioTest" time="0.031"/>
+  <testcase name="validaLongitudDeUsuario" classname="com.codivis.movil.DatosYDominioTest" time="0.032"/>
+  <testcase name="loginRechazaUsuarioInexistente" classname="com.codivis.movil.DatosYDominioTest" time="0.033"/>
+  <testcase name="noActualizaConCorreoDeOtroCliente" classname="com.codivis.movil.DatosYDominioTest" time="0.032"/>
+  <testcase name="validaTelefono" classname="com.codivis.movil.DatosYDominioTest" time="0.029"/>
+  <testcase name="validaCaracteresDeUsuario" classname="com.codivis.movil.DatosYDominioTest" time="0.031"/>
+  <testcase name="conservaClientesAlReabrirBase" classname="com.codivis.movil.DatosYDominioTest" time="0.046"/>
+  <testcase name="validaNombreObligatorio" classname="com.codivis.movil.DatosYDominioTest" time="0.029"/>
+  <testcase name="validaConfirmacion" classname="com.codivis.movil.DatosYDominioTest" time="0.029"/>
+  <testcase name="creaClienteConDatosNormalizados" classname="com.codivis.movil.DatosYDominioTest" time="0.032"/>
+  <testcase name="impideCorreoDuplicadoEnMismaCuenta" classname="com.codivis.movil.DatosYDominioTest" time="0.045"/>
+  <testcase name="loginRechazaDatosVacios" classname="com.codivis.movil.DatosYDominioTest" time="0.04"/>
+  <testcase name="validaClaveCorta" classname="com.codivis.movil.DatosYDominioTest" time="0.053"/>
+  <testcase name="buscaPorNombreYCorreo" classname="com.codivis.movil.DatosYDominioTest" time="0.041"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

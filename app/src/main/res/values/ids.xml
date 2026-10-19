@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="usuario" type="id"/><item name="clave" type="id"/><item name="confirmacion" type="id"/>
+    <item name="error" type="id"/><item name="entrar" type="id"/><item name="ir_registro" type="id"/>
+    <item name="registrar" type="id"/><item name="volver" type="id"/><item name="nuevo_cliente" type="id"/>
+    <item name="buscar" type="id"/><item name="lista_clientes" type="id"/><item name="total_clientes" type="id"/>
+    <item name="salir" type="id"/><item name="nombre_cliente" type="id"/><item name="correo_cliente" type="id"/>
+    <item name="telefono_cliente" type="id"/><item name="error_cliente" type="id"/>
+    <item name="editar_cliente" type="id"/><item name="eliminar_cliente" type="id"/>
+</resources>
